@@ -1,0 +1,147 @@
+.mainContainer {
+  display: flex;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.sidebar {
+  width: 15vw;
+  position: fixed;
+  height: 100vh;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contenet {
+  background-color: rgba(237, 237, 237, 1);
+  width: 85vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+}
+
+.heding {
+  color: rgba(71, 68, 68, 1);
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.dashboardChip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.liveChip {
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
+  padding: 5px 15px;
+  border-radius: 9px;
+  font-size: 18px;
+}
+
+.dashboardContainer {
+  margin-top: 6rem;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.dataContainer {
+  height: 8rem;
+  width: 56rem;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.dataDiv {
+  height: 7.5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 25px;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  width: 16rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+}
+
+.trendingQuize {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid; */
+  color: rgba(71, 68, 68, 1);
+  width: 56rem;
+  height: max-content;
+}
+
+.trendingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.dataNumber {
+  font-size: 2.5rem;
+}
+
+.chipCard {
+  height: 3rem;
+  background: white;
+  border-radius: 7px;
+  padding: 14px;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+
+.trendingQuize h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.chipHero {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.crreated {
+  color: rgba(96, 184, 75, 1);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.logOutdiv {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  margin-bottom: 2rem;
+}
+.logOutdiv hr {
+  width: 7rem;
+  border: 1px solid;
+}
+
+.logOutdiv span {
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 700;
+}

@@ -1,0 +1,76 @@
+.container {
+  background-color: white;
+  height: 26rem;
+  width: 37rem;
+  /* padding: 2rem; */
+  background-origin: border-box;
+  padding: 2rem 4rem 1rem 4rem;
+  color: rgba(159, 159, 159, 1);
+  position: relative;
+}
+
+.chipsDiv {
+  display: flex;
+  align-items: center;
+}
+
+.chip {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.timerDiv {
+  position: absolute;
+  bottom: 5rem;
+  right: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.timerDiv span {
+  height: 1.5rem;
+  width: 70px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+  padding: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.crossButton {
+  position: absolute;
+  color: black;
+  font-size: 17px;
+  top: -4px;
+  right: -2px;
+}
+
+.footerButton {
+  position: absolute;
+  bottom: 1.8rem;
+  left: 3rem;
+  display: flex;
+  gap: 12rem;
+}
+
+.footerButton button {
+  border: none;
+  padding: 8px 70px;
+  font-size: 16px;
+  border-radius: 9px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  /* position: relative; */
+}
+
+.detailContainer {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  width: max-content;
+  height: max-content;
+}
+
+.heading {
+  margin-top: 5rem;
+  font-size: 46px;
+  color: rgba(80, 118, 255, 1);
+}
+
+.detailNav {
+  background-color: rgba(80, 118, 255, 1);
+  color: white;
+  padding: 7px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.quizeDetail {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.quizFunc {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.quizFunc span {
+  cursor: pointer;
+}
+.qnAnalysis {
+  cursor: pointer;
+}
+
+.span1 {
+  text-align: center;
+  width: 2rem;
+}
+.span2 {
+  width: 7.5rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+.span3 {
+  width: 7rem;
+  margin-left: 1rem;
+  /* border: 1px solid; */
+  text-align: start;
+}
+.span4 {
+  width: 2rem;
+  margin-left: 3rem;
+}

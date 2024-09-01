@@ -1,0 +1,83 @@
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 70vw;
+  height: 70vh;
+  box-shadow: 0px 0px 30px 0px #00000026;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 2rem;
+}
+.inputContainer input {
+  height: 1.7rem;
+  width: 15rem;
+  border-radius: 8px 8px 0 0;
+  background: rgba(244, 244, 244, 1);
+  border: none;
+}
+
+.logandsign {
+  display: flex;
+  margin-bottom: 1.5rem;
+  gap: 13rem;
+  color: rgba(71, 68, 68, 1);
+}
+
+.activechip {
+  width: 6rem;
+  text-align: center;
+  height: max-content;
+  padding: 5px 18px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+  cursor: pointer;
+}
+
+.signchip {
+  cursor: pointer;
+}
+
+.loginchip {
+  cursor: pointer;
+}
+
+.quizeHeading {
+  margin-top: 3rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: rgba(71, 68, 68, 1);
+  margin-bottom: 2rem;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2rem;
+  margin-top: 1rem;
+  position: relative;
+}
+.submitBtn {
+  position: absolute;
+  bottom: -4.5rem;
+  left: 4rem;
+  border: none;
+  padding: 6px 5rem;
+  font-size: 17px;
+  border-radius: 9px;
+  color: rgba(71, 68, 68, 1);
+  background: rgba(169, 188, 255, 1);
+  cursor: pointer;
+}

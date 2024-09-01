@@ -1,0 +1,245 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(4, 19, 37, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 65%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.questionDiv {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.nextBtn {
+  position: absolute;
+  bottom: 1rem;
+  border: none;
+  outline: none;
+  right: 44%;
+  background: rgba(96, 184, 75, 1);
+  color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 4px 40px;
+  border-radius: 8px;
+  font-size: 21px;
+}
+
+.quizes {
+  margin-top: 3rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: rgba(71, 68, 68, 1);
+  position: relative;
+}
+
+.slidNo {
+  position: absolute;
+  margin-left: 1rem;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgba(71, 68, 68, 1);
+  top: 1rem;
+}
+
+.countDown {
+  position: absolute;
+
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  position: absolute;
+  top: -29px;
+  right: 1rem;
+}
+
+.quizes p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.optionDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  width: 77%;
+  height: 64%;
+  margin-bottom: 6rem;
+}
+
+.imgOption {
+  height: 38%;
+  width: 44%;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 6px;
+  background-color: beige;
+}
+
+.imgOption img {
+  height: 100%;
+  width: 100%;
+}
+
+.texImage {
+  height: 38%;
+  width: 44%;
+  font-size: 1.3rem;
+  background-color: rgba(240, 240, 240, 1);
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texImage img {
+  height: 85%;
+  width: 40%;
+  border-radius: 9px;
+}
+
+.texImage p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 45%;
+  word-wrap: break-word;
+  text-align: center;
+  color: black;
+}
+
+.textOption {
+  height: 38%;
+  width: 44%;
+  font-size: 2rem;
+  background-color: rgba(240, 240, 240, 1);
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.winImg {
+  height: 18rem;
+  width: 18rem;
+}
+
+.successContainer {
+  width: 70%;
+  height: 65%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  color: rgba(71, 68, 68, 1);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.successContainer h1 {
+  text-align: center;
+}
+
+.successContainer p {
+  font-size: 23px;
+  font-weight: 700;
+}
+.pollDiv {
+  padding: 6rem;
+  text-align: center;
+}
+.pollSuccess {
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .successContainer {
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+  }
+
+  .pollDiv {
+    padding: 0;
+  }
+
+  .pollSuccess {
+    font-weight: 600;
+    font-size: 2.6rem;
+  }
+
+  .winImg {
+    height: 23rem;
+    width: 20rem;
+  }
+
+  .optionDiv {
+    gap: 2rem;
+    width: 80%;
+    height: 77vh;
+    margin-bottom: 5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .textOption {
+    height: 17%;
+    width: 100%;
+  }
+
+  .imgOption {
+    height: 17%;
+    width: 100%;
+  }
+
+  .container {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 0;
+  }
+
+  .nextBtn {
+    right: 32%;
+  }
+
+  .texImage {
+    height: 21%;
+    width: 100%;
+  }
+}

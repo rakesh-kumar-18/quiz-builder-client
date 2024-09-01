@@ -1,0 +1,49 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.81);
+  position: absolute;
+}
+
+.container {
+  background-color: white;
+  width: 33rem;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  border-radius: 7px;
+}
+
+.cancelCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.cancelCont button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 70px;
+  font-size: 16px;
+  border-radius: 9px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+  text-align: center;
+  width: 20rem;
+  font-size: 27px;
+  letter-spacing: 2px;
+  color: rgba(71, 68, 68, 1);
+}
